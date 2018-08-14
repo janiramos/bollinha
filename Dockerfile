@@ -1,4 +1,4 @@
-FROM alexsuch/angular-cli:1.5.5
+FROM alexsuch/angular-cli:6.1.2
 WORKDIR /app
 COPY . /app/
 RUN npm install
